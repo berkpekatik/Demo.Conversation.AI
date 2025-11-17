@@ -1,0 +1,54 @@
+# Visual Studio and .NET
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.pdb
+*.app
+
+# NuGet
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# Rider
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+logs/
+*.log
+*.sqlite
+*.db
+
+# Test results
+TestResults/
+
+# User secrets
+secrets.json
+
+# Misc
+*.vsix
+*.ncrunch* 
+*.dotCover
+
+# Ignore the compiled llama server artifacts if produced in bin
+bin/Debug/
+bin/Release/
+
+# Ignore NuGet global packages (optional)
+# ~/.nuget/packages
